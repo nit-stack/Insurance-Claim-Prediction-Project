@@ -20,13 +20,13 @@ This project aims to build predictive models to determine the claim status for a
 - **Duplicates**: 139 duplicate rows were found but not removed due to lack of customer identification details.
 - **Outliers**: Significant number of outliers in the dataset. Boxplots depicting outliers for every variable is shown below.
 
-![image](https://github.com/user-attachments/assets/0405cd82-f0ef-45e4-a77d-6e05c8609567)
+![image](https://github.com/user-attachments/assets/e01a6d36-e166-466e-9c28-efb94cce7cbf)
 
-![image](https://github.com/user-attachments/assets/1b7f1f72-3f6b-40f8-a113-697aa0a8c7cf)
+![image](https://github.com/user-attachments/assets/18860067-32d7-480c-91b9-3d18f65dc4e3)
 
-![image](https://github.com/user-attachments/assets/d40a16f2-553a-4ed2-9858-0c30fa876618)
+![image](https://github.com/user-attachments/assets/53afe951-3f22-44c3-8696-3f7b583fed51)
 
-![image](https://github.com/user-attachments/assets/9e8efb36-c8d3-4b4f-b4d1-f54e7adb2400)
+![image](https://github.com/user-attachments/assets/38824d46-32ad-435b-9920-6784bb141dd6)
 
 ### Data Types
 - The dataset contains `float64`, `int64`, and `object` data types.
@@ -36,11 +36,11 @@ This project aims to build predictive models to determine the claim status for a
 ### Exploratory Data Analysis (EDA)
 - Pair plots, scatter plots, correlation heatmaps, and violin plots were used to visualize relationships between variables.
 
-![image](https://github.com/user-attachments/assets/9f8b0360-ae7a-4624-90c9-8cb3fbd985ab)
+![image](https://github.com/user-attachments/assets/00246cb9-565d-4360-9bbb-306d90a28197)
 
-![image](https://github.com/user-attachments/assets/4886c13b-3ab4-4d92-b332-e8adfb43940b)
+![image](https://github.com/user-attachments/assets/5f8b431d-0e55-4959-a347-ba2345e82f4b)
 
-![image](https://github.com/user-attachments/assets/170448a4-ecd2-4087-9506-5df92e067f22)
+![image](https://github.com/user-attachments/assets/b5e8af39-57da-4d52-97fc-6cd68b036d71)
 
 ## Data Split
 
@@ -95,29 +95,29 @@ The performance of each model is evaluated using Recall, Precision, Accuracy, an
 - **CART**: Train AUC: 0.864, Test AUC: 0.795
 Train AUC:
 
-![image](https://github.com/user-attachments/assets/b5be06ab-61a5-4376-8a27-e1bb6c201041)
+![image](https://github.com/user-attachments/assets/f080879e-5908-497f-ad14-1fb9bb95beaf)
 
 Test AUC:
 
-![image](https://github.com/user-attachments/assets/f2acf506-95a3-41c2-a28d-3c082a6271f2)
+![image](https://github.com/user-attachments/assets/df3ed638-fc33-42e7-99a1-a8c7a1ddda44)
 
 - **Random Forest**: Train AUC: 1.000, Test AUC: 0.798
 Train AUC:
 
-![image](https://github.com/user-attachments/assets/30d1365c-548c-4de3-a84d-25f5d5761264)
+![image](https://github.com/user-attachments/assets/9cd20c66-b19f-4516-ab4f-6e95f5fc1f3b)
 
 Test AUC:
 
-![image](https://github.com/user-attachments/assets/fd96e017-6251-4264-9cb9-9f7d338155c1)
+![image](https://github.com/user-attachments/assets/21a18ace-079c-4082-8925-af94f18ece16)
 
 - **ANN**: Train AUC: 0.773, Test AUC: 0.730
 Train AUC:
 
-![image](https://github.com/user-attachments/assets/ea8832fe-2152-4ca2-ad0b-5292895a9496)
+![image](https://github.com/user-attachments/assets/b6e8a6af-2df0-4fd4-8297-3ba3a58d3e95)
 
 Test AUC:
 
-![image](https://github.com/user-attachments/assets/b345dec5-31f9-4508-85b6-dbb360cbabd6)
+![image](https://github.com/user-attachments/assets/387729a5-1f98-42fa-ab8b-44f01f201bc8)
 
 ## Final Model Selection
 
